@@ -36,3 +36,88 @@ body {
     text-shadow: 0 0 30px white;
 }
 
+.utilities button{
+    height: 75px;
+    width: 75px;
+    border-radius: 10px ;
+    color: black;
+    background-color: rgb(245, 146, 233);
+    outline: none;
+    border: 3px solid rgb(106, 5, 81);
+    margin: 0 12px;
+}
+
+button:hover, button:active{
+    outline:none;
+    background: rgb(106, 5, 81);
+    cursor:pointer;
+    transition: 0.5s ease;
+}
+
+.main{
+    height: 20vh;
+    width: 100vw;
+    display:flex;
+    justify-content: flex;
+    align-items: center;
+}
+
+.circle{
+    display:flex;
+    margin: 1.5rem;
+    height:75px;
+    width: 75px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    transition: 1s all ease;
+}
+
+.circle:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 17.5px;
+  top: -15px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background: rgb(105, 87, 111);
+  border-radius: 4px;
+  display: inline-block;
+  border-bottom: 2px solid rgb(97, 81, 107);
+}
+
+.circle:after {
+  position: absolute;
+  content: "";
+  top: -20px;
+  left: 30px;
+  position: absolute;
+  width: 70px;
+  height: 18.6666666667px;
+  border-bottom: solid #222 2px;
+  border-radius: 50%;
+}
+
+.circle:last-child::after {
+  content: '';
+  position: absolute;
+  border: none;
+}
+
+.red {
+  background-color: #c0392b;
+  animation: glow-1 1s infinite;
+}
+
+.blue {
+  background-color: #64fcfe;
+  animation: glow-3 1s infinite;
+}
+
+.green {
+  background-color: #2ecc71;
+  animation: glow-4 1s infinite;
+}
