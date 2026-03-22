@@ -1,8 +1,8 @@
 // javascript 
 
 const circle = document.getElementsByClassName(circle)
-const play = document.getElementById(on)
-const stop = document.getElementById(off)
+const onBtn = document.getElementById('on')
+const offBtn = document.getElementById('off')
 var len = circle.length;
 
 const on = function on(){
@@ -20,5 +20,5 @@ const off = function off(){
         }
 }
 
-play.addEventListener('click', on);
-stop.addEventListener('click', off);
+onBtn.addEventListener('click', on);
+offBtn.addEventListener('click', off);
