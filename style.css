@@ -83,14 +83,13 @@ button:hover, button:active{
   margin: 0;
   padding: 0;
   display: block;
-  background: rgb(105, 87, 111);
+  background: rgb(131, 83, 147);
   border-radius: 4px;
   display: inline-block;
   border-bottom: 2px solid rgb(97, 81, 107);
 }
 
 .circle:after {
-  position: absolute;
   content: "";
   top: -30px;
   left: 37px;
