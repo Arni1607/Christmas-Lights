@@ -122,6 +122,11 @@ button:hover, button:active{
   animation: glow-3 1s infinite;
 }
 
+.yellow {
+  background-color: #e9e02f;
+  animation: glow-4 1s infinite;
+}
+
 @keyframes glow-1{
   0%, 100% {
     box-shadow: 0 0 20px 5px #c0392b;
@@ -143,6 +148,15 @@ button:hover, button:active{
 @keyframes glow-3{
   0%, 100% {
     box-shadow: 0 0 20px 5px #2ecc71;
+  }
+  50%{
+    box-shadow:none;
+  }
+}
+
+@keyframes glow-4{
+  0%, 100% {
+    box-shadow: 0 0 20px 5px #e9e02f;
   }
   50%{
     box-shadow:none;
