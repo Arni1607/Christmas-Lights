@@ -58,7 +58,7 @@ button:hover, button:active{
     height: 20vh;
     width: 100vw;
     display:flex;
-    justify-content: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -93,7 +93,7 @@ button:hover, button:active{
   position: absolute;
   content: "";
   top: -30px;
-  left: 40px;
+  left: 37px;
   position: absolute;
   width: 70px;
   height: 18.6666666667px;
