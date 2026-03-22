@@ -114,10 +114,38 @@ button:hover, button:active{
 
 .blue {
   background-color: #64fcfe;
-  animation: glow-3 1s infinite;
+  animation: glow-2 1s infinite;
 }
 
 .green {
   background-color: #2ecc71;
-  animation: glow-4 1s infinite;
+  animation: glow-3 1s infinite;
 }
+
+@keyframes glow-1{
+  0%, 100% {
+    box-shadow: 0 0 20px 5px #c0392b;
+  }
+  50%{
+    box-shadow:none;
+  }
+}
+
+@keyframes glow-2{
+  0%, 100% {
+    box-shadow: 0 0 20px 5px #64fcfe;
+  }
+  50%{
+    box-shadow:none;
+  }
+}
+
+@keyframes glow-3{
+  0%, 100% {
+    box-shadow: 0 0 20px 5px #2ecc71;
+  }
+  50%{
+    box-shadow:none;
+  }
+}
+
