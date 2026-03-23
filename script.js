@@ -1,9 +1,10 @@
 // javascript 
 
-const circle = document.getElementsByClassName(circle)
+const circle = document.getElementsByClassName('circle')
 const onBtn = document.getElementById('on')
 const offBtn = document.getElementById('off')
 var len = circle.length;
+const title = document.getElementById('title')
 
 const on = function on(){
     for(var i =0; i<len; i++){
