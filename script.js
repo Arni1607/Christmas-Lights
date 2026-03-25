@@ -3,7 +3,7 @@
 const circle = document.getElementsByClassName('circle')
 const onBtn = document.getElementById('on')
 const offBtn = document.getElementById('off')
-var len = circle.length;
+var len = circle.length;  
 const title = document.getElementById('title')
 
 const on = function on(){
@@ -16,7 +16,7 @@ const on = function on(){
 const off = function off(){
         title.style.animation = "none";
         for(var i=0; i<len; i++){
-            circle[i].style.animation = "none";
+            circle[i].style.animation = "paused";
             circle[i].style.background="rgb(79, 20, 99)";
         }
 }
