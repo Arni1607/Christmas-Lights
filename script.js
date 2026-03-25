@@ -1,12 +1,14 @@
 // javascript 
 
-const circle = document.getElementsByClassName('circle')
-const onBtn = document.getElementById('on')
-const offBtn = document.getElementById('off')
+const circle = document.getElementsByClassName('circle');
+const onBtn = document.getElementById('on');
+const offBtn = document.getElementById('off');
 var len = circle.length;  
-const title = document.getElementById('title')
+const title = document.getElementById('title');
+const body= document.body;
 
 const on = function on(){
+    body.classList.add("bg-on");
     for(var i =0; i<len; i++){
         circle[i].removeAttribute("style")
         circle[i].style.animationPlayState = "running";
@@ -15,6 +17,7 @@ const on = function on(){
 
 const off = function off(){
         title.style.animation = "none";
+        body.classList.remove("bg-on");
         for(var i=0; i<len; i++){
             circle[i].style.animation = "paused";
             circle[i].style.background="rgb(79, 20, 99)";
