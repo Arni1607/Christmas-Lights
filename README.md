@@ -8,7 +8,7 @@ A festive interactive website that simulates glowing Christmas lights using HTML
 - Lightweight frontend project
 
 ## Preview
-![Project Screenshot](Christmas lights project screenshot.png)
+![Project Screenshot](screenshot.png)
 
 ## Link
 https://arni1607.github.io/Christmas-Lights/
